@@ -2475,9 +2475,9 @@ pub mod lifetime_actions_type {
     #[doc = "The type of the action."]
     #[derive(Clone, Debug, PartialEq, Serialize, Deserialize)]
     pub enum Type {
+        Rotate,
         #[serde(rename = "rotate")]
         Rotate,
-        #[serde(rename = "notify")]
         Notify,
     }
 }
